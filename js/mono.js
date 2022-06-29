@@ -5,7 +5,7 @@ pincel.fillStyle = "white"
 pincel.fillRect(600,20,200,300); 
 
 var img = new Image();
-img.src = "./img/logo alura.png";
+img.src = "./img/logo.png";
 pincel.drawImage(img, 0, 0);
 
 
