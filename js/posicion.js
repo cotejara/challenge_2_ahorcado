@@ -178,3 +178,8 @@ function limpia_variables(){
     arr_palabra = Array.from(palabra);
     carga_inicial(palabra); 
 }
+
+function volver_inicio(){
+    pincel.clearRect(500,20,200,300);
+    history.go(0);
+}
